@@ -1747,7 +1747,6 @@ function NeverLose:CreateColorPicker(HandleFrame: Frame)
 	UIStroke.Color = Color3.fromRGB(45, 48, 58)
 	UIStroke.Parent = ColorPickerHandler
 
-	-- SV map: pure-hue background + white horizontal fade + black vertical fade
 	SaViMap.Name = NeverLose.RandomString();
 	SaViMap.Parent = ColorPickerHandler
 	SaViMap.AnchorPoint = Vector2.new(0.5, 0)
