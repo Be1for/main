@@ -277,7 +277,7 @@ if getcustomasset then
 
     pcall(function()
         if not isfile(dir .. '/logo.png') then
-            local byte = game:HttpGet('https://raw.githubusercontent.com/shitarouse/ui/refs/heads/main/logo.png')
+            local byte = game:HttpGet(https://raw.githubusercontent.com/Be1for/main/refs/heads/main/candyCC.png')
 
             writefile(dir .. '/logo.png', byte)
             task.wait()
@@ -288,7 +288,7 @@ if getcustomasset then
     end)
     pcall(function()
         if not isfile(dir .. '/saturation_value_gradient.png') then
-            local byte = game:HttpGet('https://raw.githubusercontent.com/shitarouse/ui/refs/heads/main/saturation_value_gradient.png')
+            local byte = game:HttpGet('https://raw.githubusercontent.com/Be1for/main/refs/heads/main/saturation_value_gradient.png')
 
             writefile(dir .. '/saturation_value_gradient.png', byte)
             task.wait()
